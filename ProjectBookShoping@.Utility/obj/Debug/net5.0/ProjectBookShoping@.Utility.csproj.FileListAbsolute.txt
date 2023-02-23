@@ -1,0 +1,12 @@
+C:\Users\kinga\source\repos\ProjectBookShoping\ProjectBookShoping@.Utility\bin\Debug\net5.0\ProjectBookShoping@.Utility.deps.json
+C:\Users\kinga\source\repos\ProjectBookShoping\ProjectBookShoping@.Utility\bin\Debug\net5.0\ProjectBookShoping@.Utility.dll
+C:\Users\kinga\source\repos\ProjectBookShoping\ProjectBookShoping@.Utility\bin\Debug\net5.0\ProjectBookShoping@.Utility.pdb
+C:\Users\kinga\source\repos\ProjectBookShoping\ProjectBookShoping@.Utility\obj\Debug\net5.0\ProjectBookShoping@.Utility.csproj.AssemblyReference.cache
+C:\Users\kinga\source\repos\ProjectBookShoping\ProjectBookShoping@.Utility\obj\Debug\net5.0\ProjectBookShoping@.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kinga\source\repos\ProjectBookShoping\ProjectBookShoping@.Utility\obj\Debug\net5.0\ProjectBookShoping@.Utility.AssemblyInfoInputs.cache
+C:\Users\kinga\source\repos\ProjectBookShoping\ProjectBookShoping@.Utility\obj\Debug\net5.0\ProjectBookShoping@.Utility.AssemblyInfo.cs
+C:\Users\kinga\source\repos\ProjectBookShoping\ProjectBookShoping@.Utility\obj\Debug\net5.0\ProjectBookShoping@.Utility.csproj.CoreCompileInputs.cache
+C:\Users\kinga\source\repos\ProjectBookShoping\ProjectBookShoping@.Utility\obj\Debug\net5.0\ProjectBookShoping@.Utility.dll
+C:\Users\kinga\source\repos\ProjectBookShoping\ProjectBookShoping@.Utility\obj\Debug\net5.0\refint\ProjectBookShoping@.Utility.dll
+C:\Users\kinga\source\repos\ProjectBookShoping\ProjectBookShoping@.Utility\obj\Debug\net5.0\ProjectBookShoping@.Utility.pdb
+C:\Users\kinga\source\repos\ProjectBookShoping\ProjectBookShoping@.Utility\obj\Debug\net5.0\ref\ProjectBookShoping@.Utility.dll

@@ -1,0 +1,72 @@
+﻿@{
+    var status = Context.Request.Query["status"];
+    var approved = "text-primary";
+    var inprocess = "text-primary";
+    var completed = "text-primary";
+    var all = "text-primary";
+    switch (status)
+    {
+        case "approved":
+            approved = "active text-white";
+            break;
+        case "inprocess":
+            inprocess = "active text-white";
+            break;
+        case "completed":
+            completed = "active text-white";
+            break;
+        default:
+            all = "active text-white";
+            break;
+    }
+}
+
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <div class="">
+                <div class="p-2">
+                    <h2 class="text-primary text-center">Order List</h2>
+                </div>
+                <div class="p-2">
+                    <ul class="list-group list-group-horizontal-sm">
+
+                        <a style="text-decoration:none;" asp-controller="Order" asp-action="Index" asp-route-status="inprocess">
+                        <li class="list-group-item @inprocess">In process</li>
+                        </a>
+                        <a style="text-decoration:none;" asp-controller="Order" asp-action="Index" asp-route-status="approved">
+                        <li class="list-group-item @approved">approved</li>
+                        </a>
+                        <a style="text-decoration:none;" asp-controller="Order" asp-action="Index" asp-route-status="completed">
+                        <li class="list-group-item @completed">Completed</li>
+                        </a>
+                        <a style="text-decoration:none;" asp-controller="Order" asp-action="Index" asp-route-status="all">
+                        <li class="list-group-item @all">All</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <br />
+        <div class="border col-lg-12 tblorder">
+            <table id="tbldata" class="table table-hover table-stripped" style="width:80%;">
+                <thead>
+                    <tr>
+                        <th scope="col">ID</th>
+                        <th scope="col" class="ordername">Name</th>
+                        <th scope="col" class="ordernumber">Phone Number</th>
+                        <th scope="col" class="orderemail">Email</th>
+                        <th scope="col">Status</th>
+                        <th scope="col">Total</th>
+                        <th scope="col">Details</th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+    </div>
+    </div>
+    @section scripts
+        {
+        <script src="~/js/Order.js"></script>
+    }

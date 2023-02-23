@@ -1,0 +1,30 @@
+﻿<div class=" container">
+    <div class="row">
+    <div class="col-8 pt-3">
+        <h2 class="text-primary">Product List</h2>
+    </div>
+    <div class="col-4 pt-3 text-end">
+        <a asp-action="Upsert" class="btn btn-info">
+            <i class="fas fa-plus"></i>&nbsp; New Product Type
+        </a>
+    </div>
+    <hr />
+    <div class="border col-12 p-2 m-2">
+        <table id="tbldata" class="table table-hover">
+            <thead>
+                <tr>
+                    <th scope="col">Title</th>
+                    <th scope="col">ISBN</th>
+                    <th scope="col">Author</th>
+                    <th scope="col">Price</th>
+                    <th scope="col">Category</th>
+                    <th scope="col">Action</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+    </div>
+</div>
+@section scripts{
+    <script src="~/js/Product.js"></script>
+}

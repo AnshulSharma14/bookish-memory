@@ -1,0 +1,76 @@
+﻿@model ProjectBookSolution_.Model.ShoppingCart
+<div class="container">
+    <form method="post">
+    <input hidden asp-for="ProductId" />
+    <div class="pt-4">
+    <div class="card container ">
+        <div class="card-header bg-primary text-light ml-0  row ">
+            <div class="col-12 col-md-6">
+                <h1 class="text-white">@Model.product.Title</h1>
+                <p class="text-warning">by @Model.product.Author</p>
+            </div>
+            <div class="col-12 col-md-6 text-end pt-4">
+                <span class="badge bg-warning pt-2" style="height:2rem; width:7rem; font-size:.6rem;">@Model.product.Category.Name</span>
+            </div>
+        </div>
+        <div class="card-body row container">
+            <div class="container rounded p-2">
+                <div class="row">
+                    <div class="col-8 col-lg-8">
+                        <div class="row pl-2">
+                            <h5 class="text-muted pb-2">List Price: <strike>@Model.product.ListPrice.ToString("c")</strike></h5>
+                        </div>
+                        <div class="row text-center pl-2">
+                            <div class="p-1 col-lg-2 col-4 bg-dark text-light border-bottom">
+                                <div>Quantity</div>
+                            </div>
+                            <div class="p-1 col-lg-2 col-4 bg-warning border-bottom">
+                                <div>1-50</div>
+                            </div>
+                            <div class="p-1 col-lg-2 col-4 bg-warning border-bottom">
+                                <div>51-100</div>
+                            </div>
+                        </div>
+                        <div class="row text-center pl-2" style="color:maroon; font-weight:bold">
+                            <div class="p-1 col-lg-2 col-4 bg-light">
+                                <div>Price</div>
+                            </div>
+                            <div class="p-1 col-lg-2 col-4 bg-light">
+                                <div>@Model.product.Price.ToString("c")</div>
+                            </div>
+                            <div class="p-1 col-lg-2 col-4 bg-light">
+                                <div>@Model.product.Price50.ToString("c")</div>
+                            </div>
+                        </div>
+                        <div class="row pl-2">
+                            <p class="text-secondary">@Html.Raw(Model.product.Description)</p>
+                        </div>
+                        <div class="row pl-2">
+                            <div class="col-lg-2 text-primary"><h4>Count</h4></div>
+                            <div class="col-lg-2"><input asp-for="Count" class="form-control" /></div>
+                        </div>
+                    </div>
+                    <div class="col-3 col-lg-3 offset-lg-1 text-center">
+                        <img src="@Model.product.ImageUrl" width="100%" class="rounded detailsprdimg" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card-footer">
+            <div class="row">
+                <div class="col-12 col-md-6 pb-1">
+                        <a class="btn btn-success form-control " style="height:50px;text-align:center; font-size:1.2rem;" asp-action="Index">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+                            </svg> Home
+                        </a>
+                </div>
+                <div class="col-12 col-md-6 pb-1">
+                    <button type="submit" value="Add to Cart" class="btn btn-primary form-control" style="height:50px;font-size:1.2rem;">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</form>
+</div>

@@ -1,0 +1,15 @@
+D:\btech\MyProjectsOp\ProjectBookShoping\ProjectBookShoping@.Utility\bin\Release\net5.0\ProjectBookShopingUtility.deps.json
+D:\btech\MyProjectsOp\ProjectBookShoping\ProjectBookShoping@.Utility\bin\Release\net5.0\ProjectBookShopingUtility.runtimeconfig.json
+D:\btech\MyProjectsOp\ProjectBookShoping\ProjectBookShoping@.Utility\bin\Release\net5.0\ProjectBookShopingUtility.runtimeconfig.dev.json
+D:\btech\MyProjectsOp\ProjectBookShoping\ProjectBookShoping@.Utility\bin\Release\net5.0\ProjectBookShopingUtility.dll
+D:\btech\MyProjectsOp\ProjectBookShoping\ProjectBookShoping@.Utility\bin\Release\net5.0\ProjectBookShopingUtility.pdb
+D:\btech\MyProjectsOp\ProjectBookShoping\ProjectBookShoping@.Utility\obj\Release\net5.0\ProjectBookShopingUtility.csproj.AssemblyReference.cache
+D:\btech\MyProjectsOp\ProjectBookShoping\ProjectBookShoping@.Utility\obj\Release\net5.0\ProjectBookShopingUtility.GeneratedMSBuildEditorConfig.editorconfig
+D:\btech\MyProjectsOp\ProjectBookShoping\ProjectBookShoping@.Utility\obj\Release\net5.0\ProjectBookShopingUtility.AssemblyInfoInputs.cache
+D:\btech\MyProjectsOp\ProjectBookShoping\ProjectBookShoping@.Utility\obj\Release\net5.0\ProjectBookShopingUtility.AssemblyInfo.cs
+D:\btech\MyProjectsOp\ProjectBookShoping\ProjectBookShoping@.Utility\obj\Release\net5.0\ProjectBookShopingUtility.csproj.CoreCompileInputs.cache
+D:\btech\MyProjectsOp\ProjectBookShoping\ProjectBookShoping@.Utility\obj\Release\net5.0\ProjectBookShopingUtility.dll
+D:\btech\MyProjectsOp\ProjectBookShoping\ProjectBookShoping@.Utility\obj\Release\net5.0\refint\ProjectBookShopingUtility.dll
+D:\btech\MyProjectsOp\ProjectBookShoping\ProjectBookShoping@.Utility\obj\Release\net5.0\ProjectBookShopingUtility.pdb
+D:\btech\MyProjectsOp\ProjectBookShoping\ProjectBookShoping@.Utility\obj\Release\net5.0\ProjectBookShopingUtility.genruntimeconfig.cache
+D:\btech\MyProjectsOp\ProjectBookShoping\ProjectBookShoping@.Utility\obj\Release\net5.0\ref\ProjectBookShopingUtility.dll
